@@ -1,4 +1,4 @@
-package io.github.lsmcodes.spring_security.controller;
+package io.github.lsmcodes.spring_security.controller.welcome;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
