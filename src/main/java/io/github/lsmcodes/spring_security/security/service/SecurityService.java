@@ -1,4 +1,4 @@
-package io.github.lsmcodes.spring_security.service.security;
+package io.github.lsmcodes.spring_security.security.service;
 
 import java.util.HashSet;
 import java.util.Set;

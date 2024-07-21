@@ -28,4 +28,8 @@ public class UserService {
                 return encoder.encode(password);
         }
 
+        public boolean verifyIfUserPasswordIsCorrect(String rawPassword, String encodedPassword) {
+                return encoder.matches(rawPassword, encodedPassword);
+        }
+
 }

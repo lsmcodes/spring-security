@@ -13,7 +13,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserDTO {
-        
+
         private Long id;
         private String name;
         private String username;
@@ -21,6 +21,7 @@ public class UserDTO {
         private List<String> roles;
 
         public UserDTO(User user) {
+                this.id = user.getId();
                 this.name = user.getName();
                 this.username = user.getUsername();
                 this.password = user.getPassword();
